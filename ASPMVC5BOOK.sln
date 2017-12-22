@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialTools", "EssentialTools\EssentialTools\EssentialTools.csproj", "{A7FDD06E-5695-4FE7-8EE4-2648BF54C9B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageFeatures", "LanguageFeatures\LanguageFeatures\LanguageFeatures.csproj", "{07B01657-70E6-4DBC-9988-F2156CF0B5D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razor", "Razor\Razor\Razor.csproj", "{8BEBF632-F677-4126-B2D0-449942F0B44B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7FDD06E-5695-4FE7-8EE4-2648BF54C9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7FDD06E-5695-4FE7-8EE4-2648BF54C9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7FDD06E-5695-4FE7-8EE4-2648BF54C9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7FDD06E-5695-4FE7-8EE4-2648BF54C9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B01657-70E6-4DBC-9988-F2156CF0B5D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B01657-70E6-4DBC-9988-F2156CF0B5D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B01657-70E6-4DBC-9988-F2156CF0B5D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B01657-70E6-4DBC-9988-F2156CF0B5D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BEBF632-F677-4126-B2D0-449942F0B44B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BEBF632-F677-4126-B2D0-449942F0B44B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BEBF632-F677-4126-B2D0-449942F0B44B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BEBF632-F677-4126-B2D0-449942F0B44B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
